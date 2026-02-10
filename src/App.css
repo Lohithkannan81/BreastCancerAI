@@ -1,0 +1,60 @@
+:root {
+  --primary: #008080;
+  --bg: #f8fafc;
+  --text: #1e293b;
+  --danger: #e53e3e;
+  --success: #38a169;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: var(--bg);
+  margin: 0;
+}
+
+.dashboard-container {
+  display: flex;
+  height: 100vh;
+}
+
+.sidebar {
+  width: 260px;
+  background: white;
+  border-right: 1px solid #e2e8f0;
+  padding: 20px;
+}
+
+.main-content {
+  flex: 1;
+  padding: 40px;
+  overflow-y: auto;
+}
+
+.card {
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1);
+  margin-bottom: 20px;
+}
+
+.btn-primary {
+  background: var(--primary);
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.result-box {
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.result-box.MALIGNANT { background: #fff5f5; border: 2px solid var(--danger); color: var(--danger); }
+.result-box.BENIGN { background: #f0fff4; border: 2px solid var(--success); color: var(--success); }

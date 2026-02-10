@@ -1,0 +1,18 @@
+# Ignore python cache
+__pycache__/
+*.py[cod]
+
+# Ignore Models (too large for standard push)
+models/
+
+# Ignore Dataset (too large)
+dataset/
+raw_data/
+
+# Ignore Environment Variables
+.env
+
+# Ignore Virtual Env
+venv/
+.input/
+node_modules
