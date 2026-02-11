@@ -47,7 +47,7 @@ const LandingPage: React.FC<LandingPageProps> = ({ onStart, onLogin }) => {
                 <img key={i} src={`https://picsum.photos/100/100?random=${i}`} className="w-10 h-10 rounded-full border-2 border-white object-cover" alt="User" />
               ))}
             </div>
-            <p className="text-sm text-slate-500 font-medium">Trusted by 200+ Clinical Researchers</p>
+            <p className="text-sm text-slate-500 font-medium">Trusted Clinical Research Using BreastCancerAI</p>
           </div>
         </div>
         <div className="relative fade-in">
