@@ -4,7 +4,7 @@
 This project uses Deep Learning (CNN) to classify mammogram images as Benign or Malignant. It features a secure login system, patient history database, and a user-friendly web interface.
 
 ## Tech Stack
-- **Frontend:** Streamlit
+- **Frontend:** React,Tailwind CSS,TypeScript
 - **Backend:** Python
 - **AI Model:** TensorFlow/Keras
 - **Database:** SQLite
