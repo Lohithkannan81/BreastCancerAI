@@ -1,8 +1,10 @@
-tensorflow
-streamlit
-numpy
-pandas
-pillow
 opencv-python
 matplotlib
 python-dotenv
+streamlit
+tensorflow==2.15.0
+numpy
+pandas
+pillow
+scikit-learn
+gunicorn
