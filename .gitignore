@@ -2,8 +2,8 @@
 __pycache__/
 *.py[cod]
 
-# Ignore Models (too large for standard push)
-models/
+# Large models are handled by Git LFS
+# models/
 
 # Ignore Dataset (too large)
 dataset/
